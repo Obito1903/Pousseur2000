@@ -3,3 +3,4 @@ node_modules/*
 bfg-1.13.0.jar
 .git.*
 
+config.json
