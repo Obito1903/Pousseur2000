@@ -1,0 +1,19 @@
+{
+  "name": "Pousseur2000",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pousseur2000.js",
+  "scripts": {
+    "start": "node pousseur2000.js"
+  },
+  "keywords": [],
+  "author": "Obito1903 <samuel.rodrigues@eisti.fr>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.1.1",
+    "enmap": "^5.2.4",
+    "fs": "0.0.1-security",
+    "pornsearch": "^2.4.3",
+    "ytdl-core": "^2.0.1"
+  }
+}
