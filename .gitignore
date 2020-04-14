@@ -1,8 +1,5 @@
 node_modules/*
-config.json
 .vscode/*
-config.json
 bfg-1.13.0.jar
 .git.*
-config.json
 
