@@ -1,17 +1,17 @@
 {
     "MessageEmbed": {
-        "title": "help",
-        "description": "Affiche l'aide du bot",
+        "title": "phgif",
+        "description": "Envoie du cul !",
         "color": 16056414,
         "fields": [
             {
                 "name": "Commande",
-                "value": "`help [option]`",
+                "value": "`phgif <recherche> [option]`",
                 "inline": false
             },
             {
                 "name": "options",
-                "value": "`<commande>`: Affiche l'aide d'une commande spécifique\n",
+                "value": "`gif`: Affiche un gif au lieu d'un webm",
                 "inline": true
             }
         ]

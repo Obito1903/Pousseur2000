@@ -1,0 +1,14 @@
+{
+    "MessageEmbed": {
+        "title": "porngif",
+        "description": "Envoie du cul !",
+        "color": 16056414,
+        "fields": [
+            {
+                "name": "Commande",
+                "value": "`porngif <recherche>`",
+                "inline": false
+            }
+        ]
+    }
+}

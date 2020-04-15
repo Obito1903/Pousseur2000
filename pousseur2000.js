@@ -1,17 +1,14 @@
 const Discord = require("discord.js");
 const Enmap = require("enmap");
 const fs = require("fs");
-const yt = require('ytdl-core');
-const Pornsearch = require('pornsearch');
+//const yt = require('ytdl-core');
 
 const config = require("./config.json");
 
 const client = new Discord.Client();
 
-
 client.config = config;
 client.queue = {};
-client.ps = Pornsearch;
 
 // Lit le contenu du dossier ./events/ et attache chaque fichier a sont evenement.
 fs.readdir("./events/", (err, files) => {
