@@ -1,14 +1,21 @@
 const Discord = require("discord.js");
 const Enmap = require("enmap");
 const fs = require("fs");
-//const yt = require('ytdl-core');
+const MusicClient = require("yet-another-discord.js-musicbot-addon");
 
 const config = require("./config.json");
 
 const client = new Discord.Client();
 
 client.config = config;
-client.queue = {};
+client.music = new MusicClient(client, {
+    apiKey: config.ytApi,
+    //all other options are optional
+    bitRate: config.bitRate,
+    maxHistory: config.maxHistory,
+    maxQueue: config.maxQueue,
+    color: 16056414
+});
 
 // Lit le contenu du dossier ./events/ et attache chaque fichier a sont evenement.
 fs.readdir("./events/", (err, files) => {
