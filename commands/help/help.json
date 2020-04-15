@@ -1,0 +1,19 @@
+{
+    "MessageEmbed": {
+        "title": "help",
+        "description": "Affiche l'aide du bot",
+        "color": 16056414,
+        "fields": [
+            {
+                "name": "Commande",
+                "value": "`help [option]`",
+                "inline": false
+            },
+            {
+                "name": "option",
+                "value": "`commande`: Affiche l'aide d'une commande spécifique\n",
+                "inline": true
+            }
+        ]
+    }
+}
