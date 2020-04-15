@@ -1,8 +1,8 @@
 {
     "token": "BotTokken",
     "prefix": "%",
-    ytApi: "YouTubeAPIKeyHere",
-	bitRate: 12000,
-	maxHistory: 50,
-	maxQueue: 100
+    "ytApi": "YouTubeAPIKeyHere",
+"bitRate": 12000,
+"maxHistory": 50,
+"maxQueue": 100
 }
