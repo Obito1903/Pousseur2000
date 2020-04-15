@@ -1,0 +1,37 @@
+{
+    "MessageEmbed": {
+        "title": "Aide",
+        "description": "Liste des commandes",
+        "color": 16056414,
+        "fields": [
+            {
+                "name": ":information_source: Info",
+                "value": "`help`",
+                "inline": false
+            },
+            {
+                "name": ":underage: NSFW",
+                "value": "`porngif`",
+                "inline": false
+            },
+            {
+                "name": ":satellite_orbital: Test",
+                "value": "`ping`",
+                "inline": false
+            },
+            {
+                "name": ":wrench: Outils",
+                "value": "`reload`",
+                "inline": false
+            }
+        ],
+        "thumbnail": {
+            "url": "https://i.imgur.com/wSTFkRM.png"
+        },
+        "author": {
+            "name": "Pousseur2000",
+            "iconURL": "https://i.imgur.com/wSTFkRM.png",
+            "url": "https://discord.js.org"
+        }
+    }
+}

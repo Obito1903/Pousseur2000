@@ -1,0 +1,14 @@
+{
+    "MessageEmbed": {
+        "title": "ping",
+        "description": "Pong !",
+        "color": 16056414,
+        "fields": [
+            {
+                "name": "Commande",
+                "value": "`ping`",
+                "inline": false
+            }
+        ]
+    }
+}

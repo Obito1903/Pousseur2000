@@ -11,7 +11,6 @@ const client = new Discord.Client();
 
 client.config = config;
 client.queue = {};
-client.yt = yt;
 client.ps = Pornsearch;
 
 // Lit le contenu du dossier ./events/ et attache chaque fichier a sont evenement.
