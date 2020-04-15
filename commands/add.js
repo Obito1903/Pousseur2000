@@ -10,7 +10,7 @@ exports.run = (client, message, args) => {
         client.queue[message.guild.id].songs.url = url;
         client.queue[message.guild.id].songs.title = info.title;
         client.queue[message.guild.id].songs.requester = message.author.id;
-        console.log(client.queue[message.guild.id].songs);
+        console.log(client.queue[message.guild.id]);
         message.channel.send(`added **${info.title}** to the queue`);
     });
 }
