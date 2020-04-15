@@ -38,6 +38,7 @@ fs.readdir("./commands/", (err, files) => {
         console.log(`Chargement de la commande ${commandName}`);
         client.commands.set(commandName, props);
     });
+    console.log(client.commands);
 });
 
 client.login(config.token);
