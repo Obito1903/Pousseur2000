@@ -1,4 +1,7 @@
 {
-    "token": "prout",
-    "prefix": "%"
+    "token": "botTokken",
+    "prefix": "%",
+    "bitRate": 12000,
+    "maxHistory": 50,
+    "maxQueue": 100
 }
