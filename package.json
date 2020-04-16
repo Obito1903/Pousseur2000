@@ -12,11 +12,12 @@
   "dependencies": {
     "discord.js": "^12.1.1",
     "enmap": "^5.2.4",
+    "ffmpeg-static": "^4.1.1",
     "fs": "0.0.1-security",
     "node-opus": "^0.3.3",
     "opus": "0.0.0",
     "opusscript": "0.0.7",
     "pornsearch": "^2.4.3",
-    "ytdl-core-discord": "^1.2.0"
+    "ytdl-core": "^2.1.0"
   }
 }
