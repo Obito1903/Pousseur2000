@@ -1,14 +1,12 @@
 const Discord = require("discord.js");
 const Enmap = require("enmap");
 const fs = require("fs");
-//const yt = require('ytdl-core');
 
 const config = require("./config.json");
 
 const client = new Discord.Client();
 
 client.config = config;
-client.queue = {};
 
 // Lit le contenu du dossier ./events/ et attache chaque fichier a sont evenement.
 fs.readdir("./events/", (err, files) => {
@@ -38,6 +36,7 @@ fs.readdir("./commands/", (err, files) => {
         console.log(`Chargement de la commande ${commandName}`);
         client.commands.set(commandName, props);
     });
+    console.log(client.commands);
 });
 
 client.login(config.token);
