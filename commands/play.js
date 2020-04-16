@@ -2,8 +2,8 @@ const ytdl = require('ytdl-core');
 
 exports.run = async (client, message, args) => {
     try {
-        if (!client.guilds.has(message.guild.id)) {
-            client.guilds.set(message.guild.id, {
+        if (!client.guildsList.has(message.guild.id)) {
+            client.guildsList.set(message.guild.id, {
                 id: message.guild.id,
                 audioDispatcher: null,
                 queue: new Array(),
@@ -11,11 +11,11 @@ exports.run = async (client, message, args) => {
                 volume: 50
             });
         }
-        const guild = client.guilds.get(message.guild.id);
+        console.log('1');
+        const guild = client.guildsList.get(message.guild.id);
 
         client.commands.get('join').run(client, message, args);
-        console.log('2');
-        console.log('3');
+        client.commands.get('playNow').run(client, message, args);
     } catch (err) {
         console.log('Erreur play.js' + err);
     }

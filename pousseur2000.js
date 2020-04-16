@@ -8,7 +8,7 @@ const config = require("./config.json");
 const client = new Discord.Client();
 
 client.config = config;
-client.queue = {};
+client.guildsList = new Map()
 
 // Lit le contenu du dossier ./events/ et attache chaque fichier a sont evenement.
 fs.readdir("./events/", (err, files) => {
