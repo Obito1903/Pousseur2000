@@ -1,6 +1,6 @@
 {
     "token": "botTokken",
-    "prefix": "%",
+    "prefix": "p2.",
     "bitRate": 12000,
     "maxHistory": 50,
     "maxQueue": 100
