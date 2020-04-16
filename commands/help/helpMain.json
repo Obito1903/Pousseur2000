@@ -11,7 +11,7 @@
             },
             {
                 "name": ":underage: NSFW",
-                "value": "`porngif`",
+                "value": "`porngif` `phgif`",
                 "inline": false
             },
             {
@@ -21,7 +21,7 @@
             },
             {
                 "name": ":wrench: Outils",
-                "value": "`reload`",
+                "value": "`reload` `clear`",
                 "inline": false
             }
         ],
