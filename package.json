@@ -18,6 +18,7 @@
     "node-gyp": "^6.1.0",
     "node-opus": "^0.3.3",
     "pornsearch": "^2.4.3",
-    "ytdl-core": "^2.1.0"
+    "ytdl-core": "^2.1.0",
+    "ytdl-core-discord": "^1.2.0"
   }
 }

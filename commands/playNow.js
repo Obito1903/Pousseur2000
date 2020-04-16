@@ -1,4 +1,4 @@
-const ytdl = require('ytdl-core');
+const ytdl = require('ytdl-core-discord');
 
 exports.run = async (client, message, args) => {
     try {
@@ -18,7 +18,7 @@ exports.run = async (client, message, args) => {
             type: 'opus',
             highWaterMark: 1
         }
-        guild.audioDispatcher = voiceConnection.play(ytdl(args[0], ytOptions), dOptions);
+        guild.audioDispatcher = voiceConnection.play(await ytdl(args[0]/*, ytOptions*/), dOptions);
 
     } catch (err) {
         console.log('Erreur playNow.js' + err);
