@@ -1,0 +1,14 @@
+{
+    "MessageEmbed": {
+        "title": "join",
+        "description": "Demande au bot de rejoindre le channel",
+        "color": 16056414,
+        "fields": [
+            {
+                "name": "Commande",
+                "value": "`join`",
+                "inline": false
+            }
+        ]
+    }
+}

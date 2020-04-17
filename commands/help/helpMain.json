@@ -10,6 +10,11 @@
                 "inline": false
             },
             {
+                "name": ":musical_note: Musique",
+                "value": "`play` `skip` `pause` `resume` `volume` `join`  `leave` `stop`",
+                "inline": false
+            },
+            {
                 "name": ":underage: NSFW",
                 "value": "`porngif` `phgif`",
                 "inline": false

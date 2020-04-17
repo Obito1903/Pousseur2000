@@ -1,0 +1,14 @@
+{
+    "MessageEmbed": {
+        "title": "volume",
+        "description": "Change le volume du bot",
+        "color": 16056414,
+        "fields": [
+            {
+                "name": "Commande",
+                "value": "`volume <volume>`",
+                "inline": false
+            }
+        ]
+    }
+}
